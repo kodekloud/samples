@@ -46,7 +46,6 @@
         $('#contact_form').submit(function (e) {
                    values = [];
                    values = JSON.stringify($('#contact_form').serializeArray());
-                   console.log(values);
                    e.preventDefault();
                    $.ajax({
                         url : "/api/v1/contact_us",
