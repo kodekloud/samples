@@ -55,7 +55,7 @@
                                 form_data:values},
                         success: function(data, textStatus, jqXHR)
                         {
-                            console.log(textStatus);
+                            $('#send_contact_success').fadeIn();
                         },
                         error: function (jqXHR, textStatus, errorThrown)
                         {
