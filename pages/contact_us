@@ -59,7 +59,7 @@
                         },
                         error: function (jqXHR, textStatus, errorThrown)
                         {
-                            console.log(textStatus);
+                            $('#send_contact_error').fadeIn();
                         }
                     });
                });
